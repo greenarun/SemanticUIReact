@@ -1,0 +1,31 @@
+.App .ui.button.pushBtn{position: absolute;
+    top: 5px;
+    left: 17px;
+    z-index: 99999;background:transparent}
+.pushBtn i:before{margin: 12px 0 0 0;display: block;}
+.ui.sidebar{visibility: visible}
+.ui.segment{margin:0;padding:0;padding: 0 0 0 65px;border-radius:0;position: inherit;background:#f1f2f7}
+.MenuSmall{background:#272c33;text-align: center;margin: 0;padding: 0;width:65px;color: #8b939b;}
+.MenuSmall a{color: #8b939b;padding:10px 0 15px 0;display:block;}
+.MenuSmall h2{padding-top:20px}
+.MenuSmall i{font-size:1.6em}
+.MenuSmall .menu i{font-size:1.1em;float:left;}
+.MenuSmall .menu a{text-align: left;padding: 5px 0 5px 0;cursor:pointer}
+.MenuSmall .menu .MenuTitle{margin-left:12px;}
+.MenuSmall .submenu .menu{background:#272c33;position:absolute;z-index:99999;top:-12px;left:65px;padding: 15px;width: 200px;height: auto;}
+.MenuSmall .submenu{position: relative;}
+.MenuIntegrated{position: absolute;top:0;left:0;} 
+.pushable>.pusher{position: inherit;}
+@media screen and (max-width:768px) {
+    body,html{height: auto;}
+    .ui.thin.left.sidebar{width:100%;position: relative;}
+    .MenuIntegrated{display: none}
+    .ui.left.sidebar,.ui.visible.thin.left.sidebar~.pusher {
+        -webkit-transform: translate3d(0px,0,0);
+        transform: translate3d(0,0,0);
+    } 
+    .pushable:not(body)>.fixed, .pushable:not(body)>.pusher:after, .pushable:not(body)>.ui.sidebar{position: fixed;}
+    .ui.basic.segment{padding:0}
+    .ui.segment.pushable{overflow: hidden;}
+    .topBtn{position: absolute; top: 0;right: 0; z-index: 999999; background: transparent; border: 0 none;color: #ccc; padding: 10px;}
+}

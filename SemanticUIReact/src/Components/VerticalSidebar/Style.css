@@ -1,0 +1,20 @@
+.ui.thin.left.sidebar, .ui.thin.right.sidebar{width:280px}
+.ui.visible.thin.left.sidebar~.fixed, .ui.visible.thin.left.sidebar~.pusher {
+    -webkit-transform: translate3d(150px,0,0);
+    transform: translate3d(234px,0,0);
+} 
+.ui.sidebar{overflow:visible !important;}
+.ui.segment{border:0 none}
+.ui.labeled.icon.menu .item{text-align: left}
+.ui.inverted.icon.menu .item span{color: #c8c9ce ;font-family: 'Open Sans';font-weight: 300;}
+.ui.inverted.menu{background:#272c33}
+.ui.inverted.icon.menu h5.item span{font-weight:500}
+.ui.inverted.icon.menu .item{color:#c8c9ce}
+.ui.labeled.icon.menu .item>.icon:not(.dropdown) {float:left;color:#8b939b;line-height:23px;font-size:1em !important}
+.MenuTitle{font-size:14px;margin-left:30px;color:#c8c9ce !important} 
+.App .ui.menu a span{font-size:14px;font-family: "Open Sans";line-height:24px;font-weight:400}
+.ui.menu .menu { margin: 0 0 0 49px;height:120px;}
+.rightside{float: right;}
+.ui.menu .menu .MenuTitle{ margin: 0 0 0 15px;}
+.ui.button:not(.icon)>.right.icon:not(.button):not(.dropdown){background: #e74c3c;border-radius: 50%;color: #fff !important;cursor: pointer; height: 43px;text-align: center;width: 43px;}
+.ui.button.pushBtn i{font-size: 1.3em;margin: 0 0 0 -8px}
